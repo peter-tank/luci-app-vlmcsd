@@ -9,5 +9,6 @@ function index()
         _("Vlmcsd"), 70)
         
     p.leaf = true
+    p.acl_depends = { "luci-app-vlmcsd" }
 end
 
